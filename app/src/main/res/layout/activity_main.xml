@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8A2BE2"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/alert"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#FFD700"
+        android:text="Alert Dialog"
+        android:textColor="#8A2BE2"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:cornerRadius="5dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/custom"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:layout_margin="5dp"
+        android:backgroundTint="#FFD700"
+        android:text="Custom Dialog"
+        android:textColor="#8A2BE2"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:cornerRadius="5dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/fragment"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#FFD700"
+        android:text="Fragment Dialog"
+        android:textColor="#8A2BE2"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:cornerRadius="5dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/datapicker"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:layout_margin="5dp"
+        android:backgroundTint="#FFD700"
+        android:text="Data Picker"
+        android:textColor="#8A2BE2"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:cornerRadius="5dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/timepicker"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#FFD700"
+        android:text="Time Picker"
+        android:textColor="#8A2BE2"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:cornerRadius="5dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bottomshet"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:layout_margin="5dp"
+        android:backgroundTint="#FFD700"
+        android:text="BottomSheet Dialog"
+        android:textColor="#8A2BE2"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:cornerRadius="5dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/snackbar"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#FFD700"
+        android:text="SnackBar"
+        android:textColor="#8A2BE2"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:cornerRadius="5dp" />
+
+</LinearLayout>
